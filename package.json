@@ -1,0 +1,23 @@
+{
+  "name": "surprise-thunderdome",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "geo": "node scripts/build-geo.mjs"
+  },
+  "dependencies": {
+    "@fontsource/archivo-black": "^5.1.0",
+    "@fontsource/cormorant-garamond": "^5.1.0",
+    "@fontsource/manrope": "^5.1.0",
+    "@fontsource/space-mono": "^5.1.0",
+    "gsap": "^3.12.5",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.11"
+  }
+}
